@@ -19,7 +19,7 @@ class GetStarted2Activity : AppCompatActivity() {
             val intent = Intent(this, MainLogin::class.java)
 
             // Add data to the intent
-            intent.putExtra("data", "Tasker Login")
+            intent.putExtra("data", "Tasker")
 
             // Start the MainLogin activity with the intent
             startActivity(intent)
@@ -34,7 +34,7 @@ class GetStarted2Activity : AppCompatActivity() {
             val intent = Intent(this, MainLogin::class.java)
 
             // Add data to the intent
-            intent.putExtra("data", "Customer Login")
+            intent.putExtra("data", "Customer")
 
             // Start the MainLogin activity with the intent
             startActivity(intent)

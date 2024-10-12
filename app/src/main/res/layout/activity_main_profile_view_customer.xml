@@ -4,35 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#78CDB4"
     tools:context=".MainProfileView">
 
     <ImageView
         android:id="@+id/imageView10"
         android:layout_width="424dp"
         android:layout_height="744dp"
+        android:background="#78CDB4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/edit_task" />
-
-    <Button
-        android:id="@+id/editbutton"
-        android:layout_width="379dp"
-        android:layout_height="75dp"
-        android:backgroundTint="#05EB1B"
-        android:text="View Profile"
-        android:textColor="@color/black"
-        android:textSize="27dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.99"
-        app:strokeColor="#9F57DA"
-        app:strokeWidth="3dp" />
+        app:srcCompat="@drawable/profile_view" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

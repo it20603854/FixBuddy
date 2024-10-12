@@ -50,20 +50,16 @@
         android:layout_width="122dp"
         android:layout_height="62dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="535dp"
-        android:layout_marginEnd="269dp"
-        android:layout_marginBottom="134dp"
         android:text="Helpiyo "
         android:textColor="#3F51B5"
         android:textColorLink="#2196F3"
         android:textSize="32sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/startBtn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.282"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/textgetstarted" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -87,7 +83,11 @@
         android:text=" is here for you!"
         android:textSize="20sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="135dp"
-        tools:layout_editor_absoluteY="545dp" />
+        app:layout_constraintBottom_toTopOf="@+id/startBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textgetstarted"
+        app:layout_constraintVertical_bias="0.412" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
